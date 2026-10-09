@@ -21,16 +21,34 @@ nav a {
     color: #ffffff;
 }
 
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 main {
     background-color: #f0f4f8;
+    color: #222222;
     font-size: 18px;
     padding: 20px;
+}
+
+main a {
+    color: #0645ad;
 }
 
 footer {
     background-color: #243b53;
     color: #ffffff;
     padding: 15px;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:visited {
+    color: #ffffff;
 }
 
 li {
